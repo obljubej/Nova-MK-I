@@ -1,0 +1,90 @@
+units:
+  kx: cx
+  ky: cy
+  px: kx + 1
+  py: ky + 1
+points:
+  zones:
+    matrix:
+      key:
+        padding: 1py
+        spreak: 1px
+      anchor:
+        shift: [100, -100]
+      columns:
+        farPinky:
+        pinky:
+        ring:
+          key.stagger: 3
+        middle:
+          key.stagger: 4
+        index:
+          key.stagger: -3
+        inner:
+          key.stagger: -3
+      rows:
+        bottom:
+        home:
+        top:
+    thumb:
+      key:
+        padding: 1py
+        spreak: 1px
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-10, -23]
+        rotate: -4
+      columns:
+        near:
+        home:
+          key.splay: -3
+          key.stagger: -0.5
+        far:
+          key.splay: -3
+          key.stagger: -0.5
+      rows:
+        thumb:
+outlines:
+  raw:
+    - what: rectangle
+      where: true
+      size: [px, py]
+  keys:
+    - what: rectangle
+      where: true
+      bound: false
+      size: [kx - 0.5, ky - 0.5]
+  board:
+    - what: polygon
+      operation: stack
+      fillet: 3
+      points:
+        - ref: matrix_farPinky_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_ring_top
+          shift: [0.5px, 0.72py]
+        - ref: matrix_middle_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_index_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_inner_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_inner_bottom
+          shift: [0.5px, 0py]
+        - ref: thumb_far_thumb
+          shift: [0.5px, 0.5py]
+        - ref: thumb_far_thumb
+          shift: [0.5px, -0.5py]
+        - ref: thumb_near_thumb
+          shift: [-0.5px, -0.5py]
+        - ref: thumb_near_thumb
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_pinky_bottom
+          shift: [0.5px, -0.5py]
+        - ref: matrix_farPinky_bottom
+          shift: [-0.5px, -0.5py]
+
+  combo:
+    - name: board
+    - operation: subtract
+      name: keys
