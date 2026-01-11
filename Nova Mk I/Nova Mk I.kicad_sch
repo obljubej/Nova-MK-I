@@ -5694,6 +5694,12 @@
 		(uuid "1c90e4ab-b660-4f06-9c08-ac21ba7401b7")
 	)
 	(junction
+		(at 167.64 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22cb3f82-ffca-4477-afe3-633035c7769e")
+	)
+	(junction
 		(at 361.95 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5724,6 +5730,12 @@
 		(uuid "2c68ef51-e631-4d16-93d8-24818b81d756")
 	)
 	(junction
+		(at 203.2 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d4b93a6-afde-4ab2-9771-5ac1a391b0db")
+	)
+	(junction
 		(at 326.39 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5740,6 +5752,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3494bc3f-235b-4bf4-bd65-f39847e5028d")
+	)
+	(junction
+		(at 175.26 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35b0478a-2680-4ba9-b36b-5fb988824f3a")
 	)
 	(junction
 		(at 34.29 227.33)
@@ -5776,6 +5794,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "416a911d-130f-4165-aba9-85a83b026769")
+	)
+	(junction
+		(at 195.58 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43b1001d-dbca-4016-a509-ffa4e67432aa")
 	)
 	(junction
 		(at 219.71 208.28)
@@ -5830,6 +5854,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f02cdc8-41ba-4ef7-8491-49904f974b26")
+	)
+	(junction
+		(at 203.2 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f896b05-cedc-4c26-8bcd-0aea7bb0c823")
 	)
 	(junction
 		(at 219.71 294.64)
@@ -5896,6 +5926,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ee49e68-76d5-4dea-970e-1ef83ff0b402")
+	)
+	(junction
+		(at 175.26 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7150cc15-d0d8-4c83-a000-92292542a9c9")
 	)
 	(junction
 		(at 189.23 152.4)
@@ -6186,6 +6222,12 @@
 		(uuid "e6eb5263-5c9d-4e8b-be0b-f1e2473573ca")
 	)
 	(junction
+		(at 195.58 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e869faba-5bf1-42ab-907c-bf9e42c0a07a")
+	)
+	(junction
 		(at 64.77 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6220,12 +6262,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0531813-e3f0-4ebd-9448-f0ba36e549ec")
-	)
-	(junction
-		(at 354.33 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2debf3a-c4ab-4653-8869-2b6c6007e540")
 	)
 	(junction
 		(at 95.25 242.57)
@@ -6308,6 +6344,16 @@
 			(type default)
 		)
 		(uuid "0188b58b-1bc6-4da0-9d7d-b78381761bda")
+	)
+	(wire
+		(pts
+			(xy 195.58 86.36) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "029e2fcd-6769-4eb6-a38d-5b2b168b9b80")
 	)
 	(wire
 		(pts
@@ -6621,16 +6667,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 40.64) (xy 356.87 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c342f1e-32b0-40fd-a0f7-02de1384b18f")
-	)
-	(wire
-		(pts
 			(xy 306.07 312.42) (xy 311.15 312.42)
 		)
 		(stroke
@@ -6781,6 +6817,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 86.36) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b2f0d3-2b53-4144-9c0d-32869f368bdc")
+	)
+	(wire
+		(pts
 			(xy 76.2 45.72) (xy 81.28 45.72)
 		)
 		(stroke
@@ -6801,7 +6847,7 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 124.46) (xy 405.13 127)
+			(xy 405.13 124.46) (xy 405.13 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6931,16 +6977,6 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 62.23) (xy 401.32 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34178877-b5ea-459e-913b-972b5b32d308")
-	)
-	(wire
-		(pts
 			(xy 189.23 156.21) (xy 189.23 152.4)
 		)
 		(stroke
@@ -7041,6 +7077,26 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 86.36) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb7b65d-6800-49a2-8e8c-264aaaba2db0")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 195.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d62408d-907a-493d-9925-48c8141c38d8")
+	)
+	(wire
+		(pts
 			(xy 182.88 140.97) (xy 182.88 143.51)
 		)
 		(stroke
@@ -7048,6 +7104,16 @@
 			(type default)
 		)
 		(uuid "3dbf9b51-d7f3-432a-a14c-101a0d51c032")
+	)
+	(wire
+		(pts
+			(xy 203.2 104.14) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddc099f-d9db-44a1-8090-919594786b5a")
 	)
 	(wire
 		(pts
@@ -7158,6 +7224,16 @@
 			(type default)
 		)
 		(uuid "4338f46a-15aa-4182-82b0-34910b39c69c")
+	)
+	(wire
+		(pts
+			(xy 175.26 95.25) (xy 175.26 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4384bcb2-e217-4186-8b6e-7f50ef6a1aff")
 	)
 	(wire
 		(pts
@@ -7631,6 +7707,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 86.36) (xy 208.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d72d77-9add-4b33-8545-34aac395f110")
+	)
+	(wire
+		(pts
 			(xy 162.56 68.58) (xy 166.37 68.58)
 		)
 		(stroke
@@ -7681,13 +7767,13 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 69.85) (xy 401.32 69.85)
+			(xy 167.64 95.25) (xy 167.64 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79e8c859-eae5-4fff-8a42-39ae30d887e4")
+		(uuid "791f8a5c-ec5b-4a4c-85c6-4fedfcd5c3bd")
 	)
 	(wire
 		(pts
@@ -7831,6 +7917,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 86.36) (xy 167.64 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84abf100-8224-47a2-8d1c-074e8e17c482")
+	)
+	(wire
+		(pts
 			(xy 219.71 266.7) (xy 255.27 266.7)
 		)
 		(stroke
@@ -7871,16 +7967,6 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 59.69) (xy 401.32 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "890a3865-fc91-45fd-81e6-614fa87b4c85")
-	)
-	(wire
-		(pts
 			(xy 105.41 265.43) (xy 120.65 265.43)
 		)
 		(stroke
@@ -7898,6 +7984,16 @@
 			(type default)
 		)
 		(uuid "89843afa-2f47-44a5-b30a-2d509ee46dff")
+	)
+	(wire
+		(pts
+			(xy 167.64 99.06) (xy 162.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a6ba0a-bbd5-40bb-9e0a-ed73dff657e8")
 	)
 	(wire
 		(pts
@@ -8231,6 +8327,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 99.06) (xy 180.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38e07da-1208-489a-8d52-2e905ba5125d")
+	)
+	(wire
+		(pts
 			(xy 270.51 38.1) (xy 276.86 38.1)
 		)
 		(stroke
@@ -8258,16 +8364,6 @@
 			(type default)
 		)
 		(uuid "a5847ba4-d533-4941-bef3-3387a3a660a6")
-	)
-	(wire
-		(pts
-			(xy 354.33 25.4) (xy 354.33 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6343bd2-f6a8-4804-aa45-142d368f4e50")
 	)
 	(wire
 		(pts
@@ -8441,6 +8537,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 96.52) (xy 175.26 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08a9442-e186-4587-be2f-b143d1a063e3")
+	)
+	(wire
+		(pts
 			(xy 290.83 236.22) (xy 290.83 238.76)
 		)
 		(stroke
@@ -8531,13 +8637,23 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 40.64) (xy 354.33 40.64)
+			(xy 351.79 40.64) (xy 356.87 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b591d8d7-6722-48ca-ab86-17f563145e51")
+	)
+	(wire
+		(pts
+			(xy 175.26 86.36) (xy 175.26 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f3ab4c-da53-456f-b79d-ab9a2e5fad01")
 	)
 	(wire
 		(pts
@@ -8611,6 +8727,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 99.06) (xy 203.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3727bd-804c-4477-ad0c-32e4387b28dd")
+	)
+	(wire
+		(pts
 			(xy 377.19 220.98) (xy 379.73 220.98)
 		)
 		(stroke
@@ -8671,6 +8797,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 86.36) (xy 195.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c712a4f6-83ec-4f94-a48f-1a8644bd78ab")
+	)
+	(wire
+		(pts
 			(xy 162.56 60.96) (xy 190.5 60.96)
 		)
 		(stroke
@@ -8698,6 +8834,16 @@
 			(type default)
 		)
 		(uuid "cb457c8b-98f8-43fb-9a27-93c4125ad36b")
+	)
+	(wire
+		(pts
+			(xy 175.26 96.52) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb798e57-4823-43a5-b350-2cc5942b87bc")
 	)
 	(wire
 		(pts
@@ -8758,6 +8904,16 @@
 			(type default)
 		)
 		(uuid "ceebaf82-0cb2-4355-a3e9-fb202df95491")
+	)
+	(wire
+		(pts
+			(xy 195.58 99.06) (xy 195.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfef310c-5e8b-4dce-a175-5ad868f66c20")
 	)
 	(wire
 		(pts
@@ -9011,6 +9167,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 101.6) (xy 208.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e07f5fb3-0659-4ebd-ba58-734f71b00d86")
+	)
+	(wire
+		(pts
 			(xy 64.77 242.57) (xy 64.77 257.81)
 		)
 		(stroke
@@ -9168,6 +9334,16 @@
 			(type default)
 		)
 		(uuid "ef0efc09-ebbf-4ebd-a4bb-94e5b6191965")
+	)
+	(wire
+		(pts
+			(xy 162.56 104.14) (xy 203.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef77ce31-b68c-40e4-8177-056c1aa976e3")
 	)
 	(wire
 		(pts
@@ -9391,6 +9567,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 86.36) (xy 203.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab57b86-e845-4a69-b3e1-e3f596d2a64b")
+	)
+	(wire
+		(pts
 			(xy 326.39 297.18) (xy 361.95 297.18)
 		)
 		(stroke
@@ -9479,26 +9665,6 @@
 		)
 		(uuid "013181eb-7444-4ad0-84c7-2a93042614dd")
 	)
-	(label "DATA_CHAN_1"
-		(at 401.32 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "036dca48-75bc-443a-ada1-25f6d5f0fc82")
-	)
-	(label "VBUS"
-		(at 401.32 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e4b6ffa-0c5b-4a28-8d85-3fbd516f78e0")
-	)
 	(label "VBUS"
 		(at 274.32 29.21 0)
 		(effects
@@ -9508,6 +9674,26 @@
 			(justify left bottom)
 		)
 		(uuid "0e5b1752-f035-4d70-8df6-c961bedb71b6")
+	)
+	(label "DATA_CHAN_1"
+		(at 180.34 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e720c52-e35d-4aec-b1cc-2953dfc872a4")
+	)
+	(label "DATA_CHAN_2"
+		(at 180.34 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "153108ac-4b6a-410d-aa63-654b65e36d1d")
 	)
 	(label "VBUS"
 		(at 162.56 58.42 0)
@@ -9538,6 +9724,16 @@
 			(justify right bottom)
 		)
 		(uuid "23e91eb5-c401-4a1a-b53e-1923a707d75a")
+	)
+	(label "VDD nRF"
+		(at 208.28 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2774f975-346c-48d2-90f5-38cadcec91f8")
 	)
 	(label "USB_D+"
 		(at 344.17 128.27 180)
@@ -9599,6 +9795,16 @@
 		)
 		(uuid "6c7e0213-4794-4dee-9639-bc5762113df4")
 	)
+	(label "Magnetic_data_1"
+		(at 208.28 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8740f2c5-6c7f-4639-8cf2-40172a472622")
+	)
 	(label "USB_D-"
 		(at 165.1 142.24 0)
 		(effects
@@ -9649,23 +9855,23 @@
 		)
 		(uuid "b3a4972b-1d5d-42d5-95c9-afcdc9a85f1b")
 	)
-	(label "VLED"
-		(at 354.33 25.4 90)
+	(label "Magnetic_data_2"
+		(at 208.28 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b69aecac-0b0b-4283-8bbb-b7485fd101d7")
+		(uuid "b8e061d2-4f38-46d2-a29e-e06122f1f9ca")
 	)
 	(label "VDD nRF"
-		(at 405.13 127 270)
+		(at 405.13 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "be8a0a1e-65bc-444e-b77c-4f6c020e0747")
 	)
@@ -9708,16 +9914,6 @@
 			(justify left bottom)
 		)
 		(uuid "d9034625-7f72-4984-bed8-1527d2881b39")
-	)
-	(label "DATA_CHAN_2"
-		(at 401.32 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9933ffd-b89c-4091-b215-4ee473a73a6e")
 	)
 	(label "VDD nRF"
 		(at 162.56 53.34 0)
@@ -10246,7 +10442,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 162.56 67.0052 0)
 			(effects
 				(font
@@ -10556,7 +10752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 76.2 44.7548 0)
 			(effects
 				(font
@@ -10624,7 +10820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 258.064 265.938 0)
 			(effects
 				(font
@@ -10907,7 +11103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 252.476 267.462 0)
 			(effects
 				(font
@@ -11102,7 +11298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 115.57 267.97 0)
 			(effects
 				(font
@@ -11169,7 +11365,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 281.94 36.322 90)
 			(effects
 				(font
@@ -11458,7 +11654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 334.01 30.48 0)
 			(effects
 				(font
@@ -11535,7 +11731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2171790001:MOLEX_2171790001"
+		(property "Footprint" "footprints:USB"
 			(at 294.64 151.13 0)
 			(effects
 				(font
@@ -11686,7 +11882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 115.57 237.49 0)
 			(effects
 				(font
@@ -11756,7 +11952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 398.272 120.65 90)
 			(effects
 				(font
@@ -11823,7 +12019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 173.99 55.88 0)
 			(effects
 				(font
@@ -11892,7 +12088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 273.812 57.15 90)
 			(effects
 				(font
@@ -12026,7 +12222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 288.036 267.462 0)
 			(effects
 				(font
@@ -12221,7 +12417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 364.744 326.898 0)
 			(effects
 				(font
@@ -12416,7 +12612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 39.37 252.73 0)
 			(effects
 				(font
@@ -12725,7 +12921,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 320.04 126.492 90)
 			(effects
 				(font
@@ -12793,7 +12989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 216.916 206.502 0)
 			(effects
 				(font
@@ -13057,7 +13253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 325.882 59.69 90)
 			(effects
 				(font
@@ -13125,7 +13321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 293.624 265.938 0)
 			(effects
 				(font
@@ -13397,7 +13593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 180.0352 143.51 0)
 			(effects
 				(font
@@ -13707,7 +13903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 69.85 222.25 0)
 			(effects
 				(font
@@ -13909,7 +14105,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 166.37 69.5452 0)
 			(effects
 				(font
@@ -13952,43 +14148,34 @@
 		)
 	)
 	(symbol
-		(lib_id "SJ-43516-SMT-TR:SJ-43516-SMT-TR")
-		(at 382.27 62.23 0)
+		(lib_id "Device:R")
+		(at 203.2 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47efd521-f8b0-4d77-b46d-fc473fd9ef56")
-		(property "Reference" "J5"
-			(at 382.27 49.53 0)
+		(uuid "44ad54c4-24f1-48e5-a533-f5976ccb1781")
+		(property "Reference" "R17"
+			(at 204.47 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SJ-43516-SMT-TR"
-			(at 382.27 52.07 0)
+		(property "Value" "4.7k"
+			(at 204.47 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SJ-43516-SMT-TR:CUI_SJ-43516-SMT-TR"
-			(at 382.27 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 62.23 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 201.422 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13996,8 +14183,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 382.27 62.23 0)
+		(property "Datasheet" "~"
+			(at 203.2 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14005,68 +14192,25 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1.05"
-			(at 382.27 62.23 0)
+		(property "Description" "Resistor"
+			(at 203.2 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 382.27 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5.3mm"
-			(at 382.27 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CUI Devices"
-			(at 382.27 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "f1a6d5ff-5902-4e32-9d89-3d8be715a130")
-		)
-		(pin "1"
-			(uuid "b61114bd-f4fe-4e03-9964-14ea06285db5")
-		)
-		(pin "4"
-			(uuid "0b826f93-b90b-4fe8-860e-8469d304149e")
 		)
 		(pin "2"
-			(uuid "ddc20889-2572-4d6d-81a7-88a8e08c030d")
+			(uuid "36fc9628-e07b-4170-bb6d-2e96737edcf2")
 		)
-		(pin "3"
-			(uuid "cdc938d8-bbef-4232-85cd-d0dc59ba1098")
-		)
-		(pin "5"
-			(uuid "f0814e3f-cabb-47fd-8577-6a92bcaea75b")
+		(pin "1"
+			(uuid "d7d13ff1-271e-4f16-95c0-65b3c00f6f14")
 		)
 		(instances
 			(project "Nova Mk I"
 				(path "/3aaea827-7db6-406e-bd0b-b5bc44321b22"
-					(reference "J5")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -14097,7 +14241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 273.05 124.968 90)
 			(effects
 				(font
@@ -14230,7 +14374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 76.2 62.5348 0)
 			(effects
 				(font
@@ -14299,7 +14443,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 190.8048 63.5 0)
 			(effects
 				(font
@@ -14367,7 +14511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 359.156 206.502 0)
 			(effects
 				(font
@@ -14564,7 +14708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 277.8252 36.83 0)
 			(effects
 				(font
@@ -14632,7 +14776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 186.944 265.938 0)
 			(effects
 				(font
@@ -14826,7 +14970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 175.26 42.2148 0)
 			(effects
 				(font
@@ -14983,7 +15127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 186.69 47.2948 0)
 			(effects
 				(font
@@ -15051,7 +15195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NRF52840-QIAA-R:XCVR_NRF52840-QIAA-R"
+		(property "Footprint" "footprints:MCU"
 			(at 134.62 93.98 0)
 			(effects
 				(font
@@ -15463,7 +15607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 344.17 37.338 90)
 			(effects
 				(font
@@ -15752,7 +15896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 166.37 74.6252 0)
 			(effects
 				(font
@@ -15820,7 +15964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_S2B-PH-K-S_JST"
+		(property "Footprint" "footprints:CONN_S2B-PH-K-S_JST"
 			(at 267.97 38.1 0)
 			(effects
 				(font
@@ -15890,7 +16034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 85.09 237.49 0)
 			(effects
 				(font
@@ -15957,7 +16101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 320.04 123.952 90)
 			(effects
 				(font
@@ -16114,7 +16258,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 223.8248 154.94 0)
 			(effects
 				(font
@@ -16183,7 +16327,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 			(at 72.39 101.6 0)
 			(effects
 				(font
@@ -16339,7 +16483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 69.85 252.73 0)
 			(effects
 				(font
@@ -16409,7 +16553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 210.5152 162.56 0)
 			(effects
 				(font
@@ -16478,7 +16622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 175.26 49.8348 0)
 			(effects
 				(font
@@ -16546,7 +16690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BQ24074RGTR:QFN50P300X300X100-17N"
+		(property "Footprint" "footprints:BATTERY_CHARGER"
 			(at 304.8 48.26 0)
 			(effects
 				(font
@@ -16702,7 +16846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 282.702 62.23 90)
 			(effects
 				(font
@@ -16772,7 +16916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 190.1952 163.83 0)
 			(effects
 				(font
@@ -16996,7 +17140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 327.3552 48.26 0)
 			(effects
 				(font
@@ -17127,6 +17271,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 175.26 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a9d075d-b4fd-478e-812f-fed97217a0da")
+		(property "Reference" "R10"
+			(at 176.53 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 176.53 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 173.482 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53b2531e-21ae-42b3-8c25-7aac2233fcbe")
+		)
+		(pin "1"
+			(uuid "f5e42c68-611d-4c33-b5ab-92e27bc846dd")
+		)
+		(instances
+			(project "Nova Mk I"
+				(path "/3aaea827-7db6-406e-bd0b-b5bc44321b22"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 331.47 133.35 0)
 		(unit 1)
@@ -17217,7 +17430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 288.036 206.502 0)
 			(effects
 				(font
@@ -17478,7 +17691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 364.744 265.938 0)
 			(effects
 				(font
@@ -17736,6 +17949,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 167.64 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93a2403f-fabc-4516-97a8-a88db78b321b")
+		(property "Reference" "R9"
+			(at 169.418 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 168.91 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 165.862 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "852307a2-d3c3-4197-bff2-74fa94021f2a")
+		)
+		(pin "1"
+			(uuid "078c65fc-3e91-42c9-b86b-803c55a684cc")
+		)
+		(instances
+			(project ""
+				(path "/3aaea827-7db6-406e-bd0b-b5bc44321b22"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 180.34 63.5 270)
 		(unit 1)
@@ -17762,7 +18044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 180.34 63.5 0)
 			(effects
 				(font
@@ -17830,7 +18112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 54.61 237.49 0)
 			(effects
 				(font
@@ -17898,7 +18180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 39.37 237.49 0)
 			(effects
 				(font
@@ -17966,7 +18248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 252.476 206.502 0)
 			(effects
 				(font
@@ -18250,7 +18532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 185.42 57.4548 0)
 			(effects
 				(font
@@ -18471,7 +18753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 100.33 267.97 0)
 			(effects
 				(font
@@ -18538,7 +18820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 334.01 35.56 0)
 			(effects
 				(font
@@ -18615,7 +18897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 359.156 267.462 0)
 			(effects
 				(font
@@ -18810,7 +19092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 323.596 206.502 0)
 			(effects
 				(font
@@ -19004,7 +19286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 344.17 32.258 90)
 			(effects
 				(font
@@ -19073,7 +19355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 171.45 63.5 0)
 			(effects
 				(font
@@ -19143,7 +19425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 407.162 120.65 90)
 			(effects
 				(font
@@ -19212,7 +19494,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RT3215-32.768-12.5-TR:XTAL_RT3215-32.768-12.5-TR"
+		(property "Footprint" "footprints:32kCrys"
 			(at 81.28 54.61 0)
 			(effects
 				(font
@@ -19478,7 +19760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 191.77 52.3748 0)
 			(effects
 				(font
@@ -19546,7 +19828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 293.624 326.898 0)
 			(effects
 				(font
@@ -19741,7 +20023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 329.184 265.938 0)
 			(effects
 				(font
@@ -20003,7 +20285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 223.2152 143.51 0)
 			(effects
 				(font
@@ -20287,7 +20569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 115.57 222.25 0)
 			(effects
 				(font
@@ -20356,7 +20638,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 162.56 72.0852 0)
 			(effects
 				(font
@@ -20644,7 +20926,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 201.93 152.4 0)
 			(effects
 				(font
@@ -20712,7 +20994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 69.85 237.49 0)
 			(effects
 				(font
@@ -20846,7 +21128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 54.61 252.73 0)
 			(effects
 				(font
@@ -21178,7 +21460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 216.916 267.462 0)
 			(effects
 				(font
@@ -21414,6 +21696,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 195.58 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cad06818-5a20-45a9-bc01-227e8e3dda05")
+		(property "Reference" "R16"
+			(at 196.85 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 196.85 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 193.802 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfc36b5a-df3d-4808-8db5-3e61ae64fb02")
+		)
+		(pin "1"
+			(uuid "b4f19ff4-8b48-4e18-9166-c4443d341e94")
+		)
+		(instances
+			(project "Nova Mk I"
+				(path "/3aaea827-7db6-406e-bd0b-b5bc44321b22"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 280.67 69.85 0)
 		(unit 1)
@@ -21505,7 +21856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SJ-43516-SMT-TR:CUI_SJ-43516-SMT-TR"
+		(property "Footprint" "footprints:trrs_new"
 			(at 382.27 33.02 0)
 			(effects
 				(font
@@ -21626,7 +21977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 222.504 265.938 0)
 			(effects
 				(font
@@ -21821,7 +22172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECS-320-8-37B-CKY-TR:XTAL_ECS-160-9-37-CKM-TR"
+		(property "Footprint" "footprints:32MHz_CRYSTAL"
 			(at 200.66 138.43 0)
 			(effects
 				(font
@@ -21936,7 +22287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 181.356 206.502 0)
 			(effects
 				(font
@@ -22131,7 +22482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 181.356 267.462 0)
 			(effects
 				(font
@@ -22327,7 +22678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 198.12 44.7548 0)
 			(effects
 				(font
@@ -22483,7 +22834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 54.61 222.25 0)
 			(effects
 				(font
@@ -22551,7 +22902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 85.09 252.73 0)
 			(effects
 				(font
@@ -22619,7 +22970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 323.596 267.462 0)
 			(effects
 				(font
@@ -22814,7 +23165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 85.09 222.25 0)
 			(effects
 				(font
@@ -22883,7 +23234,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 204.7748 63.5 0)
 			(effects
 				(font
@@ -22926,73 +23277,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 394.97 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd932877-f098-4af1-962e-581d17e6cd50")
-		(property "Reference" "#PWR023"
-			(at 401.32 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 398.78 57.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 394.97 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 394.97 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 394.97 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd7dd1e8-fb16-4a75-95f8-6240fed2de0d")
-		)
-		(instances
-			(project "Nova Mk I"
-				(path "/3aaea827-7db6-406e-bd0b-b5bc44321b22"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 39.37 227.33 0)
 		(unit 1)
@@ -23018,7 +23302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 39.37 222.25 0)
 			(effects
 				(font
@@ -23219,7 +23503,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 197.1548 63.5 0)
 			(effects
 				(font
@@ -23286,7 +23570,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 273.05 127.508 90)
 			(effects
 				(font
@@ -23354,7 +23638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812-E:LED_SK6812-E"
+		(property "Footprint" "footprints:LED_SK6812-E"
 			(at 329.184 326.898 0)
 			(effects
 				(font
@@ -23549,7 +23833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 85.09 267.97 0)
 			(effects
 				(font
@@ -23684,7 +23968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 271.4752 60.96 0)
 			(effects
 				(font
@@ -23752,7 +24036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 100.33 237.49 0)
 			(effects
 				(font
@@ -23820,7 +24104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 100.33 252.73 0)
 			(effects
 				(font
@@ -23888,7 +24172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 115.57 252.73 0)
 			(effects
 				(font
@@ -23958,7 +24242,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 81.788 111.76 90)
 			(effects
 				(font
@@ -24027,7 +24311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 166.37 79.7052 0)
 			(effects
 				(font
@@ -24095,7 +24379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG1350_reversible"
 			(at 100.33 222.25 0)
 			(effects
 				(font
@@ -24164,7 +24448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 198.12 59.9948 0)
 			(effects
 				(font
@@ -24386,7 +24670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_S2B-PH-K-S_JST"
+		(property "Footprint" "footprints:CONN_S2B-PH-K-S_JST"
 			(at 267.97 50.8 0)
 			(effects
 				(font
